@@ -19,8 +19,11 @@ This project is a Django-based application that leverages PostGIS for geospatial
    ```bash
    sudo -u postgres createdb geodjango_db -O postgres
    ```
-
-2. **Enable PostGIS Extension**:
+2. **Install PostGIS**:
+   ```bash
+   sudo apt-get install postgis postgresql-[version]-postgis-3
+   ```
+3. **Enable PostGIS Extension**:
    ```bash
    sudo -u postgres psql -d geodjango_db -c "CREATE EXTENSION postgis;"
    ```

@@ -1,6 +1,3 @@
-Collecting workspace informationHere is a professional README file for your project:
-
-```markdown
 # GeoDjango Project
 
 This project is a Django-based application that leverages PostGIS for geospatial data management. Below are the steps to set up the project and configure the database.
